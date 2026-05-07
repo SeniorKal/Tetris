@@ -1,70 +1,91 @@
 # Tetris Stack
 
-Projeto em linguagem C que simula a fila de pecas futuras de um jogo inspirado em Tetris.
+Projeto desenvolvido em linguagem C que simula a fila de peças futuras de um jogo inspirado em Tetris.
 
-O objetivo principal e praticar o uso de estruturas de dados, especialmente fila circular, structs, arrays, funcoes e interacao com o usuario pelo terminal.
+O principal objetivo do projeto é praticar conceitos de estruturas de dados, especialmente filas circulares, além de trabalhar com structs, arrays, funções e interação com o usuário pelo terminal.
 
-## O que o programa faz
+---
 
-O programa controla uma fila de pecas futuras. Cada peca possui:
+# Funcionalidades
 
-- `nome`: caractere que representa o tipo da peca, como `T`, `O`, `I` ou `L`.
-- `id`: numero inteiro unico que identifica a ordem de criacao da peca.
+O programa controla uma fila de peças futuras. Cada peça possui:
 
-Ao iniciar, o programa cria automaticamente uma fila com 5 pecas. Depois disso, o usuario pode escolher uma das opcoes do menu:
+- `nome`: caractere que representa o tipo da peça, como `T`, `O`, `I` ou `L`.
+- `id`: número inteiro único utilizado para identificar a ordem de criação da peça.
 
-- `1`: jogar uma peca, removendo a peca da frente da fila.
-- `2`: inserir uma nova peca no final da fila, caso exista espaco.
-- `0`: sair do programa.
+Ao iniciar, o programa gera automaticamente uma fila com 5 peças. Depois disso, o usuário pode utilizar o menu para realizar as seguintes ações:
 
-Depois de cada acao, o estado atual da fila e exibido no terminal.
+- `1` → Jogar uma peça (remove a peça da frente da fila)
+- `2` → Inserir uma nova peça no final da fila
+- `0` → Encerrar o programa
 
-## Conceitos utilizados
+Após cada ação, o estado atual da fila é exibido no terminal.
 
-- Fila circular
+---
+
+# Conceitos Utilizados
+
+- Filas circulares
 - Structs
 - Arrays
-- Funcoes
-- Entrada e saida de dados
+- Funções
+- Entrada e saída de dados
 - Condicionais
-- Controle de fluxo com menu
+- Menus interativos
+- Controle de fluxo
 
-## Niveis do projeto
+---
 
-Este projeto sera desenvolvido em tres niveis:
+# Estrutura do Projeto
 
-### Novato
+O projeto será dividido em três níveis de evolução:
 
-Nivel atual do projeto.
+## Novato
 
-Neste nivel, o programa trabalha apenas com a fila principal de pecas futuras. O usuario pode jogar uma peca, inserir uma nova peca e visualizar a fila apos cada acao.
+Nível atual do projeto.
 
-### Aventureiro
+Nesta etapa, o programa trabalha apenas com a fila principal de peças futuras. O usuário pode inserir peças, jogar peças e visualizar o estado da fila após cada operação.
 
-Nivel que ainda sera implementado.
+---
 
-Neste nivel, o projeto deve evoluir com novas funcionalidades e uma logica mais completa para manipular as pecas.
+## Aventureiro
 
-### Mestre
+Nível que será implementado futuramente.
 
-Nivel que ainda sera implementado.
+Nesta etapa, o projeto ganhará novas funcionalidades e uma lógica mais avançada para manipulação das peças.
 
-Neste nivel, o projeto deve representar uma versao mais avancada, usando uma estrutura mais completa e regras mais elaboradas para aproximar melhor a simulacao de um jogo.
+---
 
-## Como compilar
+## Mestre
 
-Use o GCC no terminal:
+Nível mais avançado do projeto.
+
+Nesta versão, o sistema terá estruturas mais completas e regras mais elaboradas, aproximando a simulação de uma lógica mais próxima de um jogo real.
+
+---
+
+# Como Compilar
+
+Utilize o GCC no terminal:
 
 ```bash
 gcc Tetris.c -o Tetris.exe
 ```
 
-## Como executar
+---
 
-No Windows, execute:
+# Como Executar
+
+No Windows:
 
 ```bash
 ./Tetris.exe
 ```
 
-Em seguida, escolha as opcoes do menu pelo terminal.
+Depois disso, basta escolher as opções do menu diretamente pelo terminal.
+
+---
+
+# Objetivo Educacional
+
+Este projeto foi criado com foco em aprendizado e prática de lógica de programação e estruturas de dados em linguagem C.
